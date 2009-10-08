@@ -1,0 +1,11 @@
+html, body { font-family: Arial, Verdana, sans-serif; }
+
+#header { text-align: center; }
+
+#content { text-align: center; }
+#links { width: 500px; margin: 0 auto; text-align: left; }
+#links ul { margin: 0; padding: 0; list-style: none; }
+#links li { display: block; border: 1px solid #CCC; padding: 10px; margin-bottom: 15px; -webkit-border-radius: 12px; }
+#links li h2 { margin: 0; padding: 0; }
+#links li span { font-size: small; color: #666; }
+#links li a { color: #666; }

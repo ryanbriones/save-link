@@ -1,0 +1,14 @@
+<div id="links">
+  <ul>
+    <% @links.each do |link| %>
+      <li>
+	<h2><%= link.title %></h2>
+	<span>
+	  <%= link.domain %>
+	  &bull; <a href="<%= go_link_url(link.id) %>">Go to URL</a>
+	  &bull; <a href="#">Read using Readability</a>
+	</span>
+      </li>
+    <% end %>
+  </ul>
+</div>
